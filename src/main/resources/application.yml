@@ -1,0 +1,27 @@
+# 端口号
+server:
+  port: 8081
+
+app:
+  proper:
+    key:
+      ${random.uuid}
+    id:
+      ${random.int}
+    value:
+      test123
+
+  demo:
+    val:
+      autoInject
+
+user:
+  name:
+    一灰灰Blog
+spring:
+  profiles:
+    active: dev,biz
+
+
+biz:
+  total: application
